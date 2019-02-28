@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <script src="bootstrap/js/jquery.min.js"></script>
+    <script src="bootstrap/js/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+</head>
+<body>
+<div class="alert alert-success">
+    <strong>Success!</strong> Indicates a successful or positive action.
+</div>
+<div class="dropdown">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+        Dropdown button
+    </button>
+    <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Link 1</a>
+        <a class="dropdown-item" href="#">Link 2</a>
+        <a class="dropdown-item" href="#">Link 3</a>
+    </div>
+</div>
+<button data-toggle="collapse" data-target="#demo">Collapsible</button>
+
+<div id="demo" class="collapse">
+    <p>Lorem ipsum dolor sit amet,
+        consectetur adipisicing elit.
+        Aspernatur, at autem dolorum
+        est inventore ipsam labore,
+        magni maxime, necessitatibus
+        nobis rem tempora voluptates!
+        Aliquam aperiam asperiores, delectus
+        porro praesentium temporibus?</p>
+</div>
+<!-- Button to Open the Modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+    Open modal
+</button>
+
+<!-- The Modal -->
+<div class="modal fade" id="myModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <h4 class="modal-title">Modal Heading</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body">
+                <p>Lorem ipsum dolor sit amet,
+                consectetur adipisicing elit.
+                Aspernatur, at autem dolorum
+                est inventore ipsam labore,
+                magni maxime, necessitatibus
+                nobis rem tempora voluptates!
+                Aliquam aperiam asperiores, delectus
+                porro praesentium temporibus?</p>
+            </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!--This is our Popover-->
+<div class="container">
+    <h3>Closing Page</h3>
+    <a href="#" data-toggle="popover" title="Closing Page" data-content="You are about to exit this page" class="btn btn-dark">Toggle popover</a>
+</div>
+
+<script>
+    $(document).ready(function(){
+        $('[data-toggle="popover"]').popover();
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+.x
+{
+    justify-content: space-around;
+    display: flex;
+}
+.w
+{
+    justify-content: center;
+    display: flex;
+}

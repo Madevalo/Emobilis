@@ -1,0 +1,50 @@
+body
+{
+    background-color: #e7fff3;
+}
+.w
+{
+    background-color: #81ffb6;
+    height: 200px;
+    color: #fffb54;
+}
+.x
+{
+    background-color: #fff94c;
+    height: 200px;
+    color: #81ffb6;
+    width: 48%;
+}
+.y
+{
+    background-color: #a7ffee;
+    height: 200px;
+    color: #fffb54;
+    width: 48%;
+}
+.z
+{
+    background-color: #af23ff;
+    height: 200px;
+    color: #fffb54;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1
+{
+    margin: 0px;
+}
+.main
+{
+    display: flex;
+    justify-content: space-between;
+}
+.ingiza
+{
+    background-color: #fffb54;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
